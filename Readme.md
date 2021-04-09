@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Sevara Rakhmanova](https://up.htmlacademy.ru/adaptive/22/user/1331577).
-* Наставник: `Иван Бессалов id391557`.
+* Наставник: [Иван Бессалов](https://htmlacademy.ru/profile/lvov)
 
 ---
 
