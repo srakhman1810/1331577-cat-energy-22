@@ -1,12 +1,200 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Кэт энерджи</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Кэт энерджи</title>
+  <link rel="icon" type="image/x-icon" href="#">
+</head>
 
-  </body>
+<body class="page">
+  <div class="wrapper">
+    <header class="page-header">
+      <div class="container page-header__container">
+        <a href="#" class="page-header__logo">
+          <svg class="page-header__svg">
+            <use  xlink:href="./img/htmlacademy.svg#logo"></use>
+          </svg>
+        </a>
+        <a href="#" class="page-header__logo logo">
+          <svg class="logo__svg">
+            <use  xlink:href="./img/htmlacademy.svg#logo2"></use>
+          </svg>
+        </a>
+        <nav class="navigation">
+          <div class="navigation__mobile">
+            <svg class="navigation__svg">
+              <use xlink:href="./img/htmlacademy.svg#hamburger"></use>
+            </svg>
+          </div>
+          <ul class="navigation__list">
+            <li class="navigation__item navigation__item--active">Главная</li>
+            <li class="navigation__item navigation__item--active">Каталог продукции</li>
+            <li class="navigation__item navigation__item--active">Подбор программы</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="page-content">
+      <div class="container page-content__container">
+        <section class="intro">
+          <h1 class="intro__heading">Функциональное питание для котов</h1>
+          <h2 class="intro__text">Занялся собой? займись котом!</h2>
+          <div class="into__img">
+            <img src="./img/index-can-mobile.png" alt="" class="intro__img-pic">
+          </div>
+          <button type="button" class="intro__button">Подобрать программу</button>
+        </section>
+        <section class="meal">
+          <div class="meal__section">
+            <div class="meal__select">
+              <h3 class="meal__heading">Похудение</h3>
+              <div class="meal__img">
+                <svg class="meal__svg">
+                  <use xlink:href="./img/htmlacademy.svg#cat"></use>
+                </svg>
+              </div>
+              <p class="meal__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на
+                диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
+              <button type="button" class="meal__button">Каталог slim
+                <svg class="button__svg">
+                  <use xlink:href="./img/htmlacademy.svg#arrow"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="meal__select">
+              <h3 class="meal__heading">Набор массы</h3>
+              <div class="meal__img">
+                <svg class="meal__svg">
+                  <use xlink:href="./img/htmlacademy.svg#cat2"></use>
+                </svg>
+              </div>
+              <p class="meal__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет
+                вашему коту нарастить необходимые мышцы!</p>
+              <button type="button" class="meal__button">Каталог pro
+                <svg class="button__svg">
+                  <use xlink:href="./img/htmlacademy.svg#arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="process">
+            <h2 class="process__heading">Как это работает</h2>
+            <ul class="process__list">
+              <li class="process__item">
+                <div class="process__pic">
+                  <svg class="process__logo-svg">
+                    <use xlink:href="./img/htmlacademy.svg#leaf"></use>
+                  </svg>
+                </div>
+                <p class="process__text">Функциональное питание содержит только полезные питательные вещества.</p>
+              </li>
+              <li class="process__item">
+                <div class="process__pic">
+                  <svg class="process__logo-svg">
+                    <use xlink:href="./img/htmlacademy.svg#powder"></use>
+                  </svg>
+                </div>
+                <p class="process__text">Выпускается в виде порошка,который нужно лишь залить кипятком и готово.
+                </p>
+              </li>
+              <li class="process__item">
+                <div class="process__pic">
+                  <svg class="process__logo-svg">
+                    <use xlink:href="./img/htmlacademy.svg#time"></use>
+                  </svg>
+                </div>
+                <p class="process__text">Замените один-два приема обычной еды на наше функциональное питание.</p>
+              </li>
+              <li class="process__item">
+                <div class="process__pic">
+                  <svg class="process__logo-svg">
+                    <use xlink:href="./img/htmlacademy.svg#leaf"></use>
+                  </svg>
+                </div>
+                <p class="process__text">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="example">
+          <h2 class="example__heading">Живой пример</h2>
+          <p class="example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim.
+            Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16
+            часов в день. </p>
+          <form action="" method="POST" class="example__form">
+            <div class="example__calc">
+              <label class="example__calc-label">
+                <div class="example__calc-result">Снижение веса</div>
+                <input type="text" name="" id="">
+              </label>
+              <label class="example__calc-label">
+                <div class="example__calc-result">Затрачено времени</div>
+                <input type="text" name="" id="">
+              </label>
+              <div class="example__calc-bill">Затраты на питание <p class="bill">15000</p> руб. </div>
+            </div>
+            <div class="example__pic">
+              <img src="./img/before-mobile.png" alt="before">
+              <img src="#" alt="after">
+            </div>
+            <label class="example__label">
+              <div class="example__range-text">Было</div>
+              <input type="range" class="example__range">
+              <div class="example__range-text">Стало</div>
+            </label>
+          </form>
+        </section>
+        <section class="map">
+          <div class="cooperation">
+            <p class="cooperation__text">Приглашаем к сотрудничеству дилеров!</p>
+            <p class="cooperation__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+          </div>
+          <div class="map__link"></div>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="container page-footer__container">
+        <a href="#" class="page-footer__logo logo">
+          <svg class="logo__svg">
+            <use xlink:href="./img/htmlacademy.svg#logo2"></use>
+          </svg>
+        </a>
+        <ul class="media-list">
+          <li class="media-list__item">
+            <a href="#" class="media-list__link">
+              <svg class="media-list__svg">
+                <use xlink:href="./img/htmlacademy.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="media-list__item">
+            <a href="#" class="media-list__link">
+              <svg class="media-list__svg">
+                <use xlink:href="./img/htmlacademy.svg#insta"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="media-list__item">
+            <a href="#" class="media-list__link">
+              <svg class="media-list__svg">
+                <use xlink:href="./img/htmlacademy.svg#f"></use>
+              </svg>
+            </a>
+          </li>
+          <div class="creator">
+            <p class="creator__text">HTML Academy</p>
+            <a href="#" class="creator__link">
+              <svg class="creator__svg">
+                <use xlink:href="./img/htmlacademy.svg#htmlacademy"></use>
+              </svg>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
