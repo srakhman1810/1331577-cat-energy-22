@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Academy: Кэт энерджи</title>
+  <link rel="icon" type="image/x-icon" href="#">
+</head>
+
+<body class="page">
+  <div class="wrapper">
+    <header class="page-header">
+      <div class="container page-header__container">
+        <a href="#" class="page-header__logo">
+          <svg class="page-header__svg">
+            <use xlink:href="./img/htmlacademy.svg#logo"></use>
+          </svg>
+        </a>
+        <a href="#" class="page-header__logo logo">
+          <svg class="logo__svg">
+            <use xlink:href="./img/htmlacademy.svg#logo2"></use>
+          </svg>
+        </a>
+        <nav class="navigation">
+          <div class="navigation__mobile">
+            <svg class="navigation__svg">
+              <use xlink:href="./img/htmlacademy.svg#hamburger"></use>
+            </svg>
+          </div>
+          <ul class="navigation__list">
+            <li class="navigation__item navigation__item--active">Главная</li>
+            <li class="navigation__item navigation__item--active">Каталог продукции</li>
+            <li class="navigation__item navigation__item--active">Подбор программы</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="page-content">
+      <section class="worksheet">
+        <form action="https://echo.htmlacademy.ru" method="POST" class="worksheet__form">
+          <h1 class="worksheet__heading">Подбор программы</h1>
+          <p class="worksheet__text"> Заполните анкету, и мы подберем программу питания для вашего кота</p>
+          <div class="base-info">
+            <label class="base-info__label">
+              <div class="base-info__name">Имя:*</div>
+              <input type="text" name="name" class="base-info__input" tabindex="1" required>
+            </label>
+            <label class="base-info">
+              <div class="base-info__name">Вес(кг):*</div>
+              <input type="text" name="weight" class="base-info__input" tabindex="2" required>
+            </label>
+            <label class="base-info">
+              <div class="base-info__name">Возраст (лет):</div>
+              <input type="text" name="age" class="base-info__input" tabindex="3">
+            </label>
+          </div>
+          <div class="goal">
+            <label class="goal__label">
+              <input type="radio" name="goal" class="goal__input" checked tabindex="4">
+              <div class="goal__name">Похудение</div>
+            </label>
+            <label class="goal__label">
+              <input type="radio" name="goal" class="goal__input" tabindex="5">
+              <div class="goal__name">Набор массы</div>
+            </label>
+            <label class="goal__label">
+              <input type="radio" name="goal" class="goal__input" tabindex="6">
+              <div class="goal__name">Не знаю (Нужен ваш совет)</div>
+            </label>
+          </div>
+          <div class="contact-info">
+            <h2 class="contact-info__heading">Контактные данные (владельца кота)</h2>
+            <label class="contact-info__label">
+              <div class="contact-info__name">E-mail:*</div>
+              <input type="email" name="email" placeholder="kuklachev@gmail.com" class="contact-info__input"
+                tabindex="7" required>
+            </label>
+            <label class="contact-info">
+              <div class="contact-info__name">Телефон:*</div>
+              <input type="text" name="cellphone" placeholder="8 (960) 900-60-90" class="contact-info__input"
+                tabindex="8" required>
+            </label>
+          </div>
+          <div class="comment">
+            <h2 class="comment__heading">Комментарий</h2>
+            <textarea class="comment__text" name="comment" placeholder="Расскажите обо всех повадках кота" id=""
+              cols="30" rows="10" tabindex="9"></textarea>
+          </div>
+          <div class="extra">
+            <label class="extra__label">
+              <input type="checkbox" name="extra" value="extra" class="extra__input" tabindex="10" checked>
+              <div class="extra__name">Сахарозаменитель</div>
+            </label>
+            <label class="extra__label">
+              <input type="checkbox" name="extra" class="extra__input" tabindex="11">
+              <div class="extra__name">Питьевая вода</div>
+            </label>
+            <label class="extra__label">
+              <input type="checkbox" name="extra" class="extra__input" tabindex="12">
+              <div class="extra__name">Молоко</div>
+            </label>
+            <label class="extra__label">
+              <input type="checkbox" name="extra" class="extra__input" tabindex="13">
+              <div class="extra__name">Витамины</div>
+            </label>
+          </div>
+          <div class="send">
+            <button class="send__button">Отправить заявку</button>
+            <div class="send__comment">* — Обязательные поля</div>
+          </div>
+        </form>
+      </section>
+      <section class="map">
+        <div class="cooperation">
+          <p class="cooperation__text">Приглашаем к сотрудничеству дилеров!</p>
+          <p class="cooperation__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </div>
+        <div class="map__link"></div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container page-footer__container">
+        <a href="#" class="page-footer__logo logo">
+          <svg class="logo__svg">
+            <use xlink:href="./img/htmlacademy.svg#logo2"></use>
+          </svg>
+        </a>
+        <ul class="media-list">
+          <li class="media-list__item">
+            <a href="#" class="media-list__link">
+              <svg class="media-list__svg">
+                <use xlink:href="./img/htmlacademy.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="media-list__item">
+            <a href="#" class="media-list__link">
+              <svg class="media-list__svg">
+                <use xlink:href="./img/htmlacademy.svg#insta"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="media-list__item">
+            <a href="#" class="media-list__link">
+              <svg class="media-list__svg">
+                <use xlink:href="./img/htmlacademy.svg#f"></use>
+              </svg>
+            </a>
+          </li>
+          <div class="creator">
+            <p class="creator__text">HTML Academy</p>
+            <a href="#" class="creator__link">
+              <svg class="creator__svg">
+                <use xlink:href="./img/htmlacademy.svg#htmlacademy"></use>
+              </svg>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
