@@ -1,0 +1,77 @@
+.example {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: @grey;
+
+  &__heading {
+    margin-top: 3%;
+    font-size: 2.57rem;
+    align-self: flex-start;
+  }
+
+  &__text {
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 5%;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+  }
+
+  &__calc {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  &__calc-label {
+    width: 50%;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__input {
+    height: 100%;
+    width: 60%;
+    border: 1px solid;
+    border-radius: 3px;
+    background: transparent;
+
+  }
+
+  &__calc-bill {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  &__pic {
+    margin-top: 5%;
+  }
+
+  &__label {
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+  }
+
+  &__range-text {
+    font-size: 1.14rem;
+    text-transform: uppercase;
+  }
+}
+
+.bill {
+  margin: 0 2%;
+}
